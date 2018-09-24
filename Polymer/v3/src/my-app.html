@@ -1,0 +1,23 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="poly2map.html">
+
+<dom-module id="my-app">
+  <template>
+    <style>
+    </style>
+    <poly-two-map></poly-two-map>
+  </template>
+
+  <script>
+    class MyApp extends Polymer.Element {
+      static get is() { return 'my-app'; }
+
+      static get properties() {
+        return {
+        };
+      }
+    }
+
+    window.customElements.define(MyApp.is, MyApp);
+  </script>
+</dom-module>

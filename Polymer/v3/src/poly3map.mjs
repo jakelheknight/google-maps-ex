@@ -44,7 +44,6 @@ class Poly3Map extends Element {
     });
   }
 
-
   _mapScriptTag() {
     const lang = 'en'
     // init google maps
